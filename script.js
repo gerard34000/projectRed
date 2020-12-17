@@ -3,5 +3,6 @@ OK.addEventListener("click", ok);
 console.log(OK);
 
 function ok() {
-    alert("OKAYYYYYYYYYYYYYYYYYYYY !")
+    var name = prompt("Votre nom");
+    alert("OKAYYYYYYYYYYYYYYYYYYYY bienvenue " + name + " ma couille");
 }
